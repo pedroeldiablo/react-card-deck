@@ -1,33 +1,12 @@
+
+@font-face {
+  font-family: Blade-Runner ;
+  src: url(./blade-runner/BLADRMF_.TTF);
+}
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: Blade-Runner, sans-serif;
+  background-image: linear-gradient(90deg, rgb(72,0,42) 10%, rgb(239,70,40), rgb(240,142,36) 48%, rgb(247,168,34), rgb(190,200,144), rgb(113,191,146) 52%, rgb(113,191,146), rgb(103,183,168), rgb(0,3,60) 90%);
 }

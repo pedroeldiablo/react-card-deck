@@ -57,7 +57,7 @@ class CardDeck extends Component {
         return (
             <div>
                 <h1>Deckard</h1>
-                <button onClick={this.getCard}>Deal card</button>
+                <button className="CardDeck-btn" onClick={this.getCard}>Deal card</button>
                 <div className="deck" >
                 {cards}
                 

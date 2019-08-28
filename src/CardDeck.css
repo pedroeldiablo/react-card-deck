@@ -2,3 +2,12 @@
     margin-top: 80px;
 
 }
+
+.CardDeck-btn {
+    background: none;
+    outline: none;
+    font: inherit;
+    margin: 0.5em;
+    padding: 1em 2em;
+
+}

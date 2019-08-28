@@ -12,7 +12,8 @@ class Card extends Component {
     render() {
         
         return (
-            <img style={{ transform: this._transform }} className="Card" src={this.props.image} alt={this.props.name} />
+            
+            <img className="Card" style={{ transform: this._transform }}  src={this.props.image} alt={this.props.name} />
         );
     }
 }
